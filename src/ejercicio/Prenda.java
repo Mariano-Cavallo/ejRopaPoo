@@ -13,8 +13,7 @@ public class Prenda {
         return precio * 1.10;
     }
     public double calcularPrecio(Tarjeta tarjeta){
-        double precio = getPrecioDeLista();
-        precio *= 1.10;
+        double precio = calcularPrecio();
         precio = tarjeta.aplicarDescuento(precio);
         return precio;
     }

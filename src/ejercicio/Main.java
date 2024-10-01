@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Prenda remera1 = new Remera(200);
-        Prenda Camisa1 = new Camisa(300,true);
+        Prenda Camisa1 = new Camisa(30,true);
         Prenda Camisa2 = new Camisa(300,false);
         Prenda Sweater = new Sweater(500);
         Tarjeta tarjeta1 = new Tarjeta(1);
@@ -14,13 +14,11 @@ public class Main {
         System.out.print("\n");
         System.out.print(remera1.calcularPrecio(tarjeta1));
         System.out.print("\n");
-        System.out.print(remera1.calcularPrecio(tarjeta2));
+        System.out.print(Camisa2.calcularPrecio());
         System.out.print("\n");
         System.out.print(Camisa1.calcularPrecio());
         System.out.print("\n");
         System.out.print(Camisa1.calcularPrecio(tarjeta2));
-        System.out.print("\n");
-        System.out.print(Camisa2.calcularPrecio());
         System.out.print("\n");
         System.out.print(Sweater.calcularPrecio());
         System.out.print("\n");

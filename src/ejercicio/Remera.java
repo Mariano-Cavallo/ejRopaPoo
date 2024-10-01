@@ -14,4 +14,7 @@ public class Remera extends Prenda{
     public double getPrecioDeLista() {
         return super.getPrecioDeLista() + 100 ;
     }
+
+
+
 }
