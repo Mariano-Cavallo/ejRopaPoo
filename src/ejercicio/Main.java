@@ -7,8 +7,14 @@ public class Main {
         Prenda Camisa1 = new Camisa(300,true);
         Prenda Camisa2 = new Camisa(300,false);
         Prenda Sweater = new Sweater(500);
+        Tarjeta tarjeta1 = new Tarjeta(1);
+        Tarjeta tarjeta2 = new TarjetaDorada(2);
 
         System.out.print(remera1.calcularPrecio());
+        System.out.print("\n");
+        System.out.print(remera1.calcularPrecio(tarjeta1));
+        System.out.print("\n");
+        System.out.print(remera1.calcularPrecio(tarjeta2));
         System.out.print("\n");
         System.out.print(Camisa1.calcularPrecio());
         System.out.print("\n");
