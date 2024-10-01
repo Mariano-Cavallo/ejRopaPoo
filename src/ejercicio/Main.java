@@ -18,10 +18,13 @@ public class Main {
         System.out.print("\n");
         System.out.print(Camisa1.calcularPrecio());
         System.out.print("\n");
+        System.out.print(Camisa1.calcularPrecio(tarjeta2));
+        System.out.print("\n");
         System.out.print(Camisa2.calcularPrecio());
         System.out.print("\n");
         System.out.print(Sweater.calcularPrecio());
         System.out.print("\n");
+        System.out.print(Sweater.calcularPrecio(tarjeta2));
 
 
 
